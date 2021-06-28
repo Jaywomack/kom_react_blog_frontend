@@ -12,14 +12,14 @@ const BlogPreview = () => {
   }, [id]);
 
   return (
-    <div className='post'>
-      <h2 className='mt-12 mb-1 border-b-2 border-gray-700 pb-6'>
-        <a href='blog-detail' className=' text-4xl'>
+    <div className='post '>
+      <h2 className='mt-12 mb-1 border-b-2 border-gray-700 pb-6 px-5'>
+        <a href='blog-detail' className=' text-4xl px-5'>
           {post.title}
         </a>
       </h2>
-      <p className='by-line font-semibold mb-1 '>{post.author}</p>
-      <p className='font-bold text-sm mb-16 '>{post.updated_at}</p>
+      <p className='by-line font-semibold mb-1 px-5 '>{post.author}</p>
+      <p className='font-bold text-sm mb-16 px-5 '>{post.updated_at}</p>
 
       <div className='content-area relative'>
         <img
@@ -27,7 +27,7 @@ const BlogPreview = () => {
           alt=''
           className=' inset-0 w-full h-96 object-cover shadow-lg rounded-lg mb-16'
         />
-        <ReactMarkdown className='text-left text-gray-800 mb-12 '>
+        <ReactMarkdown className='text-left text-gray-800 mb-12 px-5 '>
           {post.content}
         </ReactMarkdown>
       </div>
