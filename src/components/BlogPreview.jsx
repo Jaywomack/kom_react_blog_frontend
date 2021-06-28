@@ -18,13 +18,7 @@ const BlogPreview = ({ post }) => {
         <p className='text-gray-500 text-sm sm:text-base line-clamp-3'>
           {post.description}
         </p>
-        <div className='flex gap-4 mt-auto'>
-          <Link to={`/blogs/${post.id}`}>
-            <button className='ml-auto flex items-center gap-1 sm:text-lg border border-gray-300 px-3 py-1 rounded-full hover:bg-gray-50 transition-colors focus:bg-gray-100 focus:outline-none focus-visible:border-gray-500'>
-              <span>Read more</span>
-            </button>
-          </Link>
-        </div>
+        <div className='flex gap-4 mt-auto'></div>
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 const Blogs = () => {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
-    fetch('http://localhost:1337/posts')
+    fetch('https://knowledge-of-man-ozpds.ondigitalocean.app/posts')
       .then((response) => response.json())
       .then((data) => setPosts(data));
   }, []);

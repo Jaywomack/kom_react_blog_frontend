@@ -6,7 +6,7 @@ const BlogPreview = () => {
   const { id } = useParams();
   const [post, setPost] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:1337/posts/${id}`)
+    fetch(`https://knowledge-of-man-ozpds.ondigitalocean.app/posts/${id}`)
       .then((response) => response.json())
       .then((data) => setPost(data));
   }, [id]);
