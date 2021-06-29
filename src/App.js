@@ -8,7 +8,7 @@ import Blogs from './views/Blogs';
 import Health from './views/Health';
 import Wealth from './views/Wealth';
 import Wisdom from './views/Wisdom';
-import Shop from './views/Shop';
+
 import Header from './components/Header';
 import BlogDetail from './components/BlogDetail';
 
@@ -37,9 +37,6 @@ function App() {
             </Route>
             <Route path='/blogs/wisdom'>
               <Wisdom />
-            </Route>
-            <Route path='/shop'>
-              <Shop />
             </Route>
             <Route path='/blogs/:id'>
               <BlogDetail />

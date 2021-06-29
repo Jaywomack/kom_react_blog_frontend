@@ -5,7 +5,7 @@ const Home = () => {
     <div className='home'>
       {/* Header Section */}
       <div className='flex bg-white mt-20 mb-52' style={{ height: '600px' }}>
-        <div className='flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2'>
+        <div className='flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2 '>
           <div>
             <h2 className='text-3xl font-semibold text-gray-800 md:text-4xl'>
               Build Your Self Into The{' '}
@@ -34,7 +34,7 @@ const Home = () => {
           </div>
         </div>
         <div
-          className='hidden lg:block lg:w-1/2'
+          className='hidden lg:block lg:w-1/2 '
           style={{ clipPath: 'polygon(10% 0, 100% 0%, 100% 100%, 0 100%)' }}
         >
           <div

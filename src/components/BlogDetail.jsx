@@ -14,9 +14,7 @@ const BlogPreview = () => {
   return (
     <div className='post '>
       <h2 className='mt-12 mb-1 border-b-2 border-gray-700 pb-6 px-5'>
-        <a href='blog-detail' className=' text-4xl px-5'>
-          {post.title}
-        </a>
+        <a className=' text-4xl px-5'>{post.title}</a>
       </h2>
       <p className='by-line font-semibold mb-1 px-5 '>{post.author}</p>
       <p className='font-bold text-sm mb-16 px-5 '>{post.updated_at}</p>
